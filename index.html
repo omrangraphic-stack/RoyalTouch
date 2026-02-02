@@ -3,278 +3,317 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Royal & Touch</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>رويال تاتش للديكور - Royal Touch Decor</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<!-- Preloader -->
-<div id="preloader">
-    <div class="loader-content">
-        <img src="images/logo.png" alt="Logo" class="loader-logo">
-        <div class="spinner"></div>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+<div class="navbar-logo">
+    <img src="images/logo.png" alt="رويال تاتش" class="logo-image">
+          <div class="logo-text">
+        <h1>رويال تاتش</h1>
+        <p>Royal Touch</p>
     </div>
 </div>
 
-<!-- Navbar -->
-<nav class="navbar">
-    <div class="brand-container">
-        <a href="#home" class="logo-wrapper">
-            <img src="images/logo.png" alt="شعار رويال تاتش" class="main-logo">
-            <div class="brand-text">
-                <span class="brand-name">رويال تاتش</span>
-                <span class="brand-tagline">بديل الرخام السعودي</span>
-            </div>
-        </a>
-    </div>
-
-    <!-- روابط المينيو -->
-    <ul class="nav-links" id="nav-links">
-        <li><a href="#home">الرئيسية</a></li>
-        <li><a href="#products">منتجاتنا</a></li>
-        <li><a href="#locations">فروعنا</a></li>
-        <li><a href="#contact">اتصل بنا</a></li>
-    </ul>
-
-    <!-- زر الموبايل -->
-    <div class="menu-toggle" id="mobile-menu">
-        <i class="fas fa-bars"></i>
-    </div>
-</nav>
-    <header id="home" class="hero">
-        <div class="hero-content">
-            <h1>رويال تاتش</h1>
-            <p>اختيارك الأمثل , لاناقة الديكور وجودته</p>
-            <a href="#products" class="btn">اكتشف المجموعة</a>
-        </div>
-    </header>
-
-   <section id="products" class="products">
-    <div class="container">
-        <h2 class="section-title">منتجاتنا المتميزة</h2>
-        <p class="section-subtitle">نقدم لكم أجود خامات الديكور العصري بمواصفات عالمية</p>
-        
-        <div class="product-grid">
-            <div class="product-card">
-                <div class="product-badge">الأكثر مبيعاً</div>
-                <div class="card-img" style="background-image: url('images/marble-alt.jpg');">
-                    <div class="img-overlay">
-                        <span class="view-details">عرض المواصفات</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <span class="product-category">ديكور جدران</span>
-                    <h3>شبيه الرخام (PVC)</h3>
-                    <p class="product-description">بديل عصري للرخام الطبيعي، يتميز بخفة الوزن وسهولة التركيب ومقاومة الرطوبة.</p>
-                    <ul class="product-specs">
-                        <li><i class="fas fa-check"></i> <strong>الأنواع:</strong> مطفئ، لماع، CD</li>
-                        <li><i class="fas fa-check"></i> <strong>المقاسات:</strong> 1.22م × 2.44م</li>
-                        <li><i class="fas fa-check"></i> <strong>المميزات:</strong> مقاوم للبكتيريا والحرارة</li>
-                    </ul>
-                    <a href="#contact" class="btn-outline">طلب تسعيرة</a>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-img" style="background-image: url('images/wood-alt.jpg');">
-                    <div class="img-overlay">
-                        <span class="view-details">عرض المواصفات</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <span class="product-category">تكسيات خشبية</span>
-                    <h3>شبيه الخشب (WPC)</h3>
-                    <p class="product-description">تكسيات خشبية داخلية وخارجية تمنح المكان دفئاً وأناقة لا مثيل لها.</p>
-                    <ul class="product-specs">
-                        <li><i class="fas fa-check"></i> <strong>السماكة:</strong> 16 ملم و 20 ملم</li>
-                        <li><i class="fas fa-check"></i> <strong>الاستخدام:</strong> جدران، أسقف، فواصل</li>
-                        <li><i class="fas fa-check"></i> <strong>المميزات:</strong> مضاد للنمل الأبيض والماء</li>
-                    </ul>
-                    <a href="#contact" class="btn-outline">طلب تسعيرة</a>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-img" style="background-image: url('images/gypsum.jpg');">
-                    <div class="img-overlay">
-                        <span class="view-details">عرض المواصفات</span>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <span class="product-category">أنظمة أسقف</span>
-                    <h3>ألواح الجبسنبورد</h3>
-                    <p class="product-description">ألواح جبسية عالية الجودة لتنفيذ أرقى الديكورات الجبسية والأسقف المستعارة.</p>
-                    <ul class="product-specs">
-                        <li><i class="fas fa-check"></i> <strong>الأخضر:</strong> مقاوم للرطوبة</li>
-                        <li><i class="fas fa-check"></i> <strong>الأحمر:</strong> مقاوم للحريق</li>
-                        <li><i class="fas fa-check"></i> <strong>الأبيض:</strong> عادي (للغرف الجافة)</li>
-                    </ul>
-                    <a href="#contact" class="btn-outline">طلب تسعيرة</a>
-                </div>
-            </div>
             
-            </div>
-    </div>
-</section>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-<section id="management" class="management-section" style="background-color: #fcfcfc; padding: 60px 0;">
-    <div class="container">
-        <h2 class="section-title">الهيكل الإداري</h2>
-        <p class="section-subtitle">نخبة من الكفاءات تسهر على تلبية تطلعاتكم وقيادة مسيرة النجاح</p>
-        
-        <div class="product-grid">
-            <div class="product-card">
-                <div class="card-img" style="background-image: url('images/manager1.jpg'); background-color: #eee;">
-                    <div class="img-overlay">
-                        <span class="view-details">كلمة الإدارة</span>
-                    </div>
-                </div>
-                <div class="card-body" style="text-align: center;">
-                    <span class="product-category">رئيس مجلس الادارة</span>
-                    <h3 style="color: #222; margin: 10px 0;">مختار علي احمد بشارة</h3>
-                    <p style="font-weight: bold; color: #d4af37;">المدير العام</p>
-                    <p class="product-description">مسؤول عن رسم الرؤية الإستراتيجية للشركة وتطوير جودة الخدمات في كافة الفروع.</p>
-                    <div class="social-icons" style="margin-top: 15px; font-size: 1.2rem;">
-                        <a href="#" style="margin: 0 10px; color: #d4af37;"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" style="margin: 0 10px; color: #d4af37;"><i class="fas fa-envelope"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-img" style="background-image: url('images/manager2.jpg'); background-color: #eee;">
-                    <div class="img-overlay">
-                        <span class="view-details">التواصل المباشر</span>
-                    </div>
-                </div>
-                <div class="card-body" style="text-align: center;">
-                    <span class="product-category">المدير التنفيذي</span>
-                    <h3 style="color: #222; margin: 10px 0;">الطيب عبدالرحمن عبدالرحيم</h3>
-                    <p style="font-weight: bold; color: #d4af37;">مدير العمليات واللوجستيات</p>
-                    <p class="product-description">المشرف العام على سلاسل التوريد، وضمان وصول المنتجات وتوزيعها على الفروع بدقة.</p>
-                    <div class="social-icons" style="margin-top: 15px; font-size: 1.2rem;">
-                        <a href="#" style="margin: 0 10px; color: #d4af37;"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" style="margin: 0 10px; color: #d4af37;"><i class="fas fa-envelope"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-img" style="background-image: url('images/manager3.jpg'); background-color: #eee;">
-                    <div class="img-overlay">
-                        <span class="view-details">معرض الأعمال</span>
-                    </div>
-                </div>
-                <div class="card-body" style="text-align: center;">
-                    <span class="product-category">مدير التسويق</span>
-                    <h3 style="color: #222; margin: 10px 0;">دكتور/ مجاهد مختار علي احمد </h3>
-                    <p style="font-weight: bold; color: #d4af37;">ادارة تسويق المنتجات</p>
-                    <p class="product-description">المسؤول عن مراقبة سير العمل الاعلاني للمنتجات </p>
-                    <div class="social-icons" style="margin-top: 15px; font-size: 1.2rem;">
-                        <a href="#" style="margin: 0 10px; color: #d4af37;"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" style="margin: 0 10px; color: #d4af37;"><i class="fas fa-envelope"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-   <section id="locations" class="locations-section">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">فروعنا ومعارضنا</h2>
-        </div>
-
-        <div class="locations-grid">
-            <div class="location-card hq-card">
-                <div class="card-badge">المقر الرئيسي</div>
-                <div class="icon-box"><i class="fas fa-city"></i></div>
-                <h3>بورتسودان</h3>
-                <p><i class="fas fa-map-marker-alt"></i>  حي المطار، جوار صيدلية الدكتور</p>
-                <p><i class="fas fa-phone"></i> 0123456789</p>
-                <a href="https://maps.google.com" target="_blank" class="map-link">عرض الموقع على الخريطة</a>
-            </div>
-
-            <div class="location-card">
-                <div class="icon-box"><i class="fas fa-store"></i></div>
-                <h3>عطبرة</h3>
-                <p><i class="fas fa-map-marker-alt"></i> شارع السكة حديد، حي السوق</p>
-                <p><i class="fas fa-phone"></i> 0912345678</p>
-                <a href="#" class="map-link">عرض الموقع</a>
-            </div>
-
-            <div class="location-card">
-                <div class="icon-box"><i class="fas fa-store"></i></div>
-                <h3>دنقلا</h3>
-                <p><i class="fas fa-map-marker-alt"></i> السوق الكبير، جوار تقاطع زين</p>
-                <p><i class="fas fa-phone"></i> 099876543</p>
-                <a href="#" class="map-link">عرض الموقع</a>
-            </div>
-
-            <div class="location-card">
-                <div class="icon-box"><i class="fas fa-store"></i></div>
-                <h3>فرع مدني</h3>
-                <p><i class="fas fa-map-marker-alt"></i> حي الزمالك</p>
-                <p><i class="fas fa-phone"></i> 0123456788</p>
-                <a href="#" class="map-link">عرض الموقع</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="contact" class="contact-section">
-    <div class="container">
-        <h2 class="section-title">تواصل معنا عبر واتساب</h2>
-        <div class="contact-wrapper">
-            <form id="whatsapp-form" class="contact-form">
-                <input type="text" id="name" placeholder="الاسم الكامل" required>
-                <select id="service">
-                    <option value="استفسار عام">استفسار عام</option>
-                    <option value="طلب اقتباس سعر">طلب اقتباس سعر</option>
-                    <option value="حجز موعد استشارة">حجز موعد استشارة</option>
-                </select>
-                <textarea id="message" placeholder="اكتب رسالتك هنا..." rows="5" required></textarea>
-                <button type="submit" class="btn-whatsapp">
-                    <i class="fab fa-whatsapp"></i> إرسال عبر واتساب
-                </button>
-            </form>
-        </div>
-    </div>
-</section>
-
-<footer class="main-footer">
-    <div class="footer-grid">
-        <div class="footer-about">
-            <div class="logo">
-                <img src="images/logo.png" alt="شعار رويال تاتش" class="footer-logo">
-            </div>
-            <p>نحن شركة رائدة في استيراد وتسويق أرقى قطع الديكور المنزلي والأثاث العصري من مختلف أنحاء العالم.</p>
-        </div>
-        <div class="footer-links">
-            <h3>روابط سريعة</h3>
-            <ul>
-                <li><a href="#home">الرئيسية</a></li>
-                <li><a href="#products">المنتجات</a></li>
-                <li><a href="#locations">الفروع</a></li>
-                <li><a href="#contact">اتصل بنا</a></li>
+            <ul class="navbar-menu" id="navbarMenu">
+                <li><a href="#home" class="nav-link">الرئيسية</a></li>
+                <li><a href="#products" class="nav-link">المنتجات</a></li>
+                <li><a href="#branches" class="nav-link">الفروع</a></li>
+                <li><a href="#management" class="nav-link">الإدارة</a></li>
+                <li><a href="#contact" class="nav-link contact-btn">تواصل معنا</a></li>
             </ul>
         </div>
-        <div class="footer-social">
-            <h3>تابعنا على</h3>
-            <div class="social-icons">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">موزع معتمد لمواد الديكور</span>
+                <h1 class="hero-title">
+                    <span class="text-gold">رويال تاتش</span><br>للديكور
+                </h1>
+                <p class="hero-description">
+                    نحن متخصصون في توريد وتسويق جميع مواد الديكور بأعلى معايير الجودة. نخدم السوق السوداني من خلال 5 فروع استراتيجية موزعة في أهم المدن.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('products')">استكشف المنتجات</button>
+                    <button class="btn btn-outline" id="#contact">تواصل معنا</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <div class="hero-card-icon">✨</div>
+                    <p class="hero-card-title">مواد ديكور فاخرة</p>
+                    <p class="hero-card-subtitle">جودة عالية - أسعار منافسة</p>
+                </div>
+                <div class="hero-floating-card">
+                    <p class="floating-card-title">5 فروع في السودان</p>
+                    <p class="floating-card-subtitle">بورتسودان • الخرطوم • مدني • عطبرة • دنقلا</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="footer-bottom">
-        <p>جميع الحقوق محفوظة &copy; 2026 | رويال تاتش</p>
-    </div>
-</footer>
+        <div class="scroll-indicator">
+            <span>اسحب للأسفل</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M10 2V18M10 18L3 11M10 18L17 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </section>
 
-    <script src="JS/script.js"></script>
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>منتجاتنا المتميزة</h2>
+                <p>نقدم مجموعة شاملة من مواد الديكور عالية الجودة لتلبية جميع احتياجات مشاريعك</p>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be inserted here by JavaScript -->
+            </div>
+
+            <!-- Additional Products -->
+            <div class="additional-products">
+                <h3>منتجات إضافية</h3>
+                <div class="additional-grid">
+                    <div class="additional-card">
+                        <div class="additional-icon">📦</div>
+                        <h4>الشيبورد</h4>
+                    </div>
+                    <div class="additional-card">
+                        <div class="additional-icon">🎨</div>
+                        <h4>الوزرات</h4>
+                    </div>
+                    <div class="additional-card">
+                        <div class="additional-icon">🧴</div>
+                        <h4>السيلكون والغراء</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Distributors -->
+            <div class="distributors">
+                <h3>وكلاء موزعون معتمدون</h3>
+                <div class="distributors-grid">
+                    <div class="distributor-card">
+                        <div class="distributor-icon">🏭</div>
+                        <h4>مصنع الخياط</h4>
+                        <p>للجبصيات والمنتجات الجبسية</p>
+                    </div>
+                    <div class="distributor-card">
+                        <div class="distributor-icon">🔧</div>
+                        <h4>مصنع IM</h4>
+                        <p>للسيلكون والمغريات والغراء</p>
+                    </div>
+                    <div class="distributor-card">
+                        <div class="distributor-icon">🏗️</div>
+                        <h4>مصنع مفازة</h4>
+                        <p>لحديد ألواح الجبسنبورد</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Branches Section -->
+    <section id="branches" class="branches">
+        <div class="container">
+            <div class="section-header">
+                <h2>فروعنا في السودان</h2>
+                <p>نتواجد في أهم المدن السودانية لخدمتك بشكل أفضل</p>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="branches-grid" id="branchesGrid">
+                <!-- Branches will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Management Section -->
+    <section id="management" class="management">
+        <div class="container">
+            <div class="section-header">
+                <h2>الإدارة العليا</h2>
+                <p>فريق متخصص وذو خبرة عميقة في مجال توريد وتسويق مواد الديكور</p>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="management-grid" id="managementGrid">
+                <!-- Management will be inserted here by JavaScript -->
+            </div>
+
+            <!-- Company Info -->
+            <div class="company-info">
+                <div class="info-text">
+                    <h3>عن رويال تاتش</h3>
+                    <p>شركة رويال تاتش متخصصة في توريد وتسويق جميع مواد الديكور بأعلى معايير الجودة. نخدم السوق السوداني من خلال شبكة فروع موزعة استراتيجياً في أهم المدن.</p>
+                    <p>نحن نتعاون مع أفضل المصانع والموزعين المعتمدين لضمان توفير منتجات عالية الجودة بأسعار منافسة وخدمة عملاء متميزة.</p>
+                </div>
+                <div class="info-stats">
+                    <div class="stat-card stat-1">
+                        <div class="stat-number">5</div>
+                        <p>فروع</p>
+                    </div>
+                    <div class="stat-card stat-2">
+                        <div class="stat-number">100+</div>
+                        <p>منتج</p>
+                    </div>
+                    <div class="stat-card stat-3">
+                        <div class="stat-number">3</div>
+                        <p>وكلاء موزعون</p>
+                    </div>
+                    <div class="stat-card stat-4">
+                        <div class="stat-number">+</div>
+                        <p>سنوات خبرة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>تواصل معنا</h2>
+                <p>نحن هنا لخدمتك والإجابة على جميع استفساراتك</p>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="contact-content">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3>معلومات التواصل</h3>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <h4>الهاتف</h4>
+                            <a href="tel:+249183333333">+249 1 8 333 333</a>
+                            <p>متاح طوال ساعات العمل</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div>
+                            <h4>البريد الإلكتروني</h4>
+                            <a href="mailto:info@royaltouch.sd">info@royaltouch.sd</a>
+                            <p>سنرد عليك في أقرب وقت</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h4>العنوان</h4>
+                            <p>شارع النيل - بورتسودان</p>
+                            <p>المقر الرئيسي</p>
+                        </div>
+                    </div>
+
+                    <div class="social-media">
+                        <h4>تابعنا على</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link">f</a>
+                            <a href="#" class="social-link">in</a>
+                            <a href="#" class="social-link">𝕏</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">الاسم الكامل</label>
+                        <input type="text" id="name" name="name" required placeholder="أدخل اسمك">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">البريد الإلكتروني</label>
+                        <input type="email" id="email" name="email" required placeholder="أدخل بريدك الإلكتروني">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">رقم الهاتف</label>
+                        <input type="tel" id="phone" name="phone" placeholder="أدخل رقم هاتفك">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">الرسالة</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="أدخل رسالتك"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h4>رويال تاتش</h4>
+                <p>متخصصون في توريد وتسويق مواد الديكور بأعلى معايير الجودة منذ سنوات.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#products">المنتجات</a></li>
+                    <li><a href="#branches">الفروع</a></li>
+                    <li><a href="#management">الإدارة</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>المنتجات</h4>
+                <ul>
+                    <li><a href="#products">الجبسنبورد</a></li>
+                    <li><a href="#products">بدائل الرخام</a></li>
+                    <li><a href="#products">بدائل الخشب</a></li>
+                    <li><a href="#products">ورق الجدران</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>التواصل</h4>
+                <ul>
+                    <li>+249 1 8 333 333</li>
+                    <li><a href="mailto:info@royaltouch.sd">info@touch-royal.com</a></li>
+                    <li>بورتسودان - السودان</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 رويال تاتش للديكور. جميع الحقوق محفوظة.</p>
+            <div class="footer-links">
+                <a href="#">سياسة الخصوصية</a>
+                <a href="#">شروط الخدمة</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
